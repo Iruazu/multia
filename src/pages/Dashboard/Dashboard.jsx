@@ -89,7 +89,7 @@ const Dashboard = () => {
                       <FontAwesomeIcon icon={faSyncAlt} />
                     </div>
                   </div>
-                  <h4 className="dashboard-project-title">ウェブサイトリニューアル</h4>
+                  <h4 className="dashboard-project-title">ウェブサイトリニュ</h4>
                   <div className="dashboard-project-progress">
                     <div className="progress-label">
                       <span>進捗</span>
