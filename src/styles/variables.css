@@ -1,0 +1,36 @@
+:root {
+    /* ダークテーマ変数 */
+    --primary-bg-dark: #0c0e14;
+    --secondary-bg-dark: #151924;
+    --card-bg-dark: #1c212e;
+    --sidebar-bg-dark: #12151f;
+    --accent-color-dark: #4cc2ff;
+    --accent-green-dark: #4cde93;
+    --accent-orange-dark: #ffaa45;
+    --accent-red-dark: #ff5d5d;
+    --text-color-dark: #e4e7ee;
+    --text-secondary-dark: #a7aebf;
+    --border-color-dark: #2a3042;
+    --shadow-color-dark: rgba(0, 0, 0, 0.3);
+  
+    /* ライトテーマ変数 */
+    --primary-bg-light: #f8f9fa;
+    --secondary-bg-light: #ffffff;
+    --card-bg-light: #ffffff;
+    --sidebar-bg-light: #f8f9fa;
+    --accent-color-light: #4cc2ff;
+    --accent-green-light: #34c77b;
+    --accent-orange-light: #f0932b;
+    --accent-red-light: #eb4d4b;
+    --text-color-light: #333333;
+    --text-secondary-light: #777777;
+    --border-color-light: #e0e0e0;
+    --shadow-color-light: rgba(0, 0, 0, 0.1);
+  
+    /* その他の共通変数 */
+    --sidebar-width: 220px;
+    --sidebar-width-collapsed: 80px;
+    --header-height: 70px;
+    --card-border-radius: 10px;
+    --transition-speed: 0.3s;
+  }

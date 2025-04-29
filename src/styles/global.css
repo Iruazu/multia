@@ -1,0 +1,58 @@
+@import './variables.css';
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Inter', 'Segoe UI', 'Roboto', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  overflow-x: hidden;
+  background-color: var(--primary-bg-dark);
+  color: var(--text-color-dark);
+}
+
+.dark {
+  background-color: var(--primary-bg-dark);
+  color: var(--text-color-dark);
+}
+
+.light {
+  background-color: var(--primary-bg-light);
+  color: var(--text-color-light);
+}
+
+/* スクロールバースタイル */
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #4e5163;
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #5a5d6e;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+button, input {
+  font-family: inherit;
+}
+
+ul, ol {
+  list-style: none;
+}

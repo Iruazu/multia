@@ -1,0 +1,26 @@
+.progress-bar {
+    background-color: rgba(255, 255, 255, 0.1);
+    border-radius: 3px;
+    overflow: hidden;
+  }
+  
+  .progress-fill {
+    height: 100%;
+    border-radius: 3px;
+  }
+  
+  .progress-fill.blue {
+    background-color: var(--accent-color);
+  }
+  
+  .progress-fill.green {
+    background-color: var(--accent-green);
+  }
+  
+  .progress-fill.orange {
+    background-color: var(--accent-orange);
+  }
+  
+  .progress-fill.red {
+    background-color: var(--accent-red);
+  }
